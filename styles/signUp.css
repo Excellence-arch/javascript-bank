@@ -1,0 +1,22 @@
+.backg {
+	background-image: radial-gradient(rgba(255,0,0,.4), rgba(0,255,0,.3)), url("E4FS65CSYZHKBEA4XMXUWFV5TU.jpg");
+	background-size: cover;
+	background-repeat: no-repeat, no-repeat;
+	width: 1366px;
+	height: 663px;
+}
+
+input {
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+    background-color: springgreen;
+    box-shadow: none;
+    border: none;
+}
+
+#register {
+    margin-left: 650px;
+}

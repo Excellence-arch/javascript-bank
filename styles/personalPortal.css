@@ -1,0 +1,45 @@
+#bg {
+	background-image: radial-gradient(rgba(255,0,0,.4), rgba(0,255,0,.3)), url("shutterstock_254004307-e1510037041452.jpg");
+	background-size: cover;
+	background-repeat: no-repeat, no-repeat;
+	width: 1366px;
+	height: 663px;
+}
+
+.btn-michael {
+	font-size: 20px;
+	border: thin solid green;
+	color: white;
+}
+
+.btn-michael:hover {
+	background-color: green;
+}
+
+#withdraw {
+	position: absolute;
+	margin-top: -300px;
+	margin-left: 700px; 
+}
+
+#deposit {
+	position: absolute;
+	margin-top: -300px;
+	margin-left: 700px; 
+}
+
+#bal {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 550px;
+	width: 600px;
+	height: 200px;
+	background-color: white;
+}
+
+#warning {
+	color: red;
+	position: absolute;
+	margin-top: 0;
+	margin-left: 700px; 
+}

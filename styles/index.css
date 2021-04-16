@@ -1,0 +1,34 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.backg {
+	background-image: radial-gradient(rgba(255,0,0,.4), rgba(0,255,0,.3)), url("E4FS65CSYZHKBEA4XMXUWFV5TU.jpg");
+	background-size: cover;
+	background-repeat: no-repeat, no-repeat;
+	width: 1366px;
+	height: 663px;
+}
+.btn-michael {
+	color: white;
+	border: thin solid green;
+	background-color: transparent;
+}
+
+.btn-michael:hover {
+	color: black;
+	/*border-bottom: 0;*/
+	background-color: green;
+}
+
+.nav {
+	padding: 30px;
+}
+
+.nav li:hover {
+	border-bottom: thin solid green;
+}
+
+.nav-bar ul li {
+	margin-right: 40px;
+}
