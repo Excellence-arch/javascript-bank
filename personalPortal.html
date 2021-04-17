@@ -11,7 +11,7 @@
 		<ul>
 			<li><button class="btn btn-michael m-2" onclick="callwithdraw()">Withdraw</button></li>
 			<li><button class="btn btn-michael m-2 m-2" onclick="callDeposit()">Deposit</button></li>
-			<li><button class="btn btn-michael m-2" onclick="transfer()">Transfer</button></li>
+			<li><button class="btn btn-michael m-2" onclick="callTransfer()">Transfer</button></li>
 			<li><button class="btn btn-michael m-2" onclick="checkBalance()">Check Balance</button></li>
 			<li><button class="btn btn-michael m-2" onclick="logOut()">Logout</button></li>
 		</ul>
@@ -25,6 +25,13 @@
 	<form id="deposit">
 		<input type="" id="depositAmount" placeholder="Amount to deposit"> <br>
 		<button class="btn btn-michael m-4" onclick="deposits(event)">Deposit</button>
+	</form>
+
+	<form id="trans">
+		<input type="" class="m-2" id="benAcct" placeholder="Enter beneficiary's account Number"> <br>
+		<input type="password" class="m-2" id="passwrd" placeholder="Enter Your account password"> <br>
+		<input type="" class="m-2" id="transferAmount" placeholder="How much do you want to transfer"> <br>
+		<button class="btn btn-michael m-4" onclick="transfer(event)">Transfer</button>
 	</form>
 
 	<div id="bal"></div>
