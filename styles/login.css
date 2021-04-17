@@ -1,0 +1,38 @@
+body {
+	background-image: radial-gradient(rgba(255,0,0,.4), rgba(0,255,0,.3)), url("shutterstock_254004307-e1510037041452.jpg");
+	background-size: cover;
+	background-repeat: no-repeat, no-repeat;
+	width: 1366px;
+	height: 663px;
+}
+
+.btn-michael {
+	font-size: 20px;
+	border: thin solid green;
+	color: white;
+}
+
+.btn-michael:hover {
+	background-color: green;
+}
+
+
+input {
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 350px;
+    background-color: springgreen;
+    box-shadow: none;
+    border: none;
+}
+
+#login {
+    margin-left: 650px;
+}
+
+#wrong {
+	color: red;
+	margin-left: 350px;
+}
